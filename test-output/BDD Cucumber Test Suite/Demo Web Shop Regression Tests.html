@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Demo Web Shop Regression Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 01 16:33:21 IST 2026</td>
+<td>Started on:</td><td>Mon Jul 06 14:55:25 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>215 seconds (215708 ms)</td>
+<tr><td>Total time:</td><td>377 seconds (377262 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,30 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Wishlist Operations for Authenticated Users", "Product Search and Shopping Cart Management"</td>
-<td><div><pre>java.lang.AssertionError: Target item missing from user wishlist table context! expected [true] but found [false]
-	at stepdefinitions.ProductSearchSteps.verifyProductVisibleInsideWishlistTable(ProductSearchSteps.java:476)
-	at ✽.the product should be successfully visible inside the wishlist table(file:///C:/Users/NI20696194/eclipse-workspace/DemoShop_Cucumber/src/test/resources/features/product_search.feature:84)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2077970199", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2077970199'><pre>java.lang.AssertionError: Target item missing from user wishlist table context! expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.ProductSearchSteps.verifyProductVisibleInsideWishlistTable(ProductSearchSteps.java:476)
-	at ✽.the product should be successfully visible inside the wishlist table(file:///C:/Users/NI20696194/eclipse-workspace/DemoShop_Cucumber/src/test/resources/features/product_search.feature:84)
-</pre></div></td>
-<td>18</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -100,50 +76,90 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Registration with Invalid Data Handling", "Product Search and Shopping Cart Management"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search for a product and add it to the cart", "Product Search and Shopping Cart Management"</td>
 <td></td>
-<td>14</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
+<td>23</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with Valid & Invalid Credentials", "Product Search and Shopping Cart Management"</td>
 <td></td>
-<td>16</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
+<td>14</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Shopping Cart Quantity Controls and Product Removal", "Product Search and Shopping Cart Management"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Driven Login Validation", "Product Search and Shopping Cart Management"</td>
 <td></td>
-<td>31</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
+<td>24</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search for a product and add it to the cart", "Product Search and Shopping Cart Management"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging Out and Verifying Session End", "Product Search and Shopping Cart Management"</td>
 <td></td>
-<td>29</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding Multiple Products to Cart & Validating Cart Summary", "Product Search and Shopping Cart Management"</td>
-<td></td>
-<td>16</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Forgot Password Password Recovery Process", "Product Search and Shopping Cart Management"</td>
-<td></td>
-<td>15</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
+<td>12</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checkout Process with Invalid Data Handling", "Product Search and Shopping Cart Management"</td>
 <td></td>
-<td>18</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
+<td>25</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Driven Login Validation", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Registration with Invalid Data Handling", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Wishlist Operations for Authenticated Users", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Driven Login Validation", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding Multiple Products to Cart & Validating Cart Summary", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Driven Login Validation", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>25</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Forgot Password Password Recovery Process", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>14</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Shopping Cart Quantity Controls and Product Removal", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Driven Login Validation", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Product Comparison Engine Operations", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Driven Login Validation", "Product Search and Shopping Cart Management"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@b91d8c4</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Perform Check-out with Coupon Discount Verification", "Product Search and Shopping Cart Management"</td>
 <td></td>
 <td>49</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging Out and Verifying Session End", "Product Search and Shopping Cart Management"</td>
-<td></td>
-<td>2</td>
-<td>runner.TestRunner@8c3b9d</td></tr>
+<td>runner.TestRunner@b91d8c4</td></tr>
 </table><p>
 </body>
 </html>

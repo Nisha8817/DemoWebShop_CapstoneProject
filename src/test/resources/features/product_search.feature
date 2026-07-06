@@ -34,6 +34,21 @@ Feature: Product Search and Shopping Cart Management
     Then a login validation error message should be displayed
     When the user enters the valid credentials of the registered account
     Then the "My account" email link should be displayed at the top
+    
+   Scenario Outline: Data Driven Login Validation
+
+    Given the user is on the Demo Web Shop homepage
+    When the user navigates to the Login page
+    And authenticates using credentials ID "<RowID>" out of the excel sheet
+	Then the login result should be captured
+	Examples:
+	| RowID  |
+	| Row_01 |
+	| Row_02 |
+	| Row_03 |
+	| Row_04 |
+	| Row_05 |
+	| Row_06 |
 
    Scenario: Adding Multiple Products to Cart & Validating Cart Summary
     Given the user is on the Demo Web Shop homepage
@@ -42,19 +57,19 @@ Feature: Product Search and Shopping Cart Management
     And navigating to the checkout shopping cart page view
     Then the cart summary totals grid should display correct items and price calculations
 
-  Scenario: Perform Check-out with Coupon Discount Verification
+   Scenario: Perform Check-out with Coupon Discount Verification
     Given the user is on the Demo Web Shop homepage
     When the user navigates to a product details page view and adds an item to cart
     And navigates back to the cart page to apply coupon code "test_coupon"
     Then the cart summary should reflect the applied discount calculation
 
-  Scenario: Logging Out and Verifying Session End
+   Scenario: Logging Out and Verifying Session End
     Given the user is on the Demo Web Shop homepage
     When the user ensures they are logged in with valid credentials
     And clicks the logout button from the account navigation links
     Then the user should be logged out and redirected to the home landing page
     
-  Scenario: Forgot Password Password Recovery Process
+   Scenario: Forgot Password Password Recovery Process
     Given the user is on the Demo Web Shop homepage
     When the user navigates to the Login page
     And clicks on the "Forgot password?" hyperlink

@@ -12,7 +12,6 @@ public class SearchResultsPage {
     WebDriver driver;
     WebDriverWait wait;
     
-    
 
     public SearchResultsPage(WebDriver driver) {
         this.driver = driver;

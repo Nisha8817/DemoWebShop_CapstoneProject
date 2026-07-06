@@ -1,0 +1,1 @@
+{"uuid":"6f35e51a-896d-4324-9088-cbc8c288a71e","name":"BDD Cucumber Test Suite","children":["4c1825f4-5e07-467b-8d4d-33a48167eb57"],"befores":[],"afters":[{"name":"closeGlobalBrowserSession","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1783330302833,"stop":1783330303446}],"start":1783329925508,"stop":1783330303447}
