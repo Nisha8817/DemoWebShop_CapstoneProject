@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="379.921" tests="17" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="379.066" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\NI20696194\.cache\selenium\chromedriver\win64\150.0.7871.46\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\NI20696194\Downloads\Eclipse_V2025-03-R-64 (1)\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\NI20696194\AppData\Local\Temp\surefire16524910620617107079\surefirebooter-20260707001539208_3.jar C:\Users\NI20696194\AppData\Local\Temp\surefire16524910620617107079 2026-07-07T00-15-34_960-jvmRun1 surefire-20260707001539208_1tmp surefire_0-20260707001539208_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\NI20696194\AppData\Local\Temp\surefire16478574341188476173\surefirebooter-20260707004613002_3.jar C:\Users\NI20696194\AppData\Local\Temp\surefire16478574341188476173 2026-07-07T00-46-11_934-jvmRun1 surefire-20260707004613002_1tmp surefire_0-20260707004613002_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\NI20696194\eclipse-workspace\DemoShop_Cucumber\target\test-classes;C:\Users\NI20696194\eclipse-workspace\DemoShop_Cucumber\target\classes;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar;C:\Users\NI20696194\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar;C:\Users\NI20696194\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar;C:\Users\NI20696194\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\NI20696194\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\NI20696194\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\NI20696194\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\NI20696194\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\NI20696194\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\NI20696194\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\NI20696194\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\NI20696194\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar;C:\Users\NI20696194\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\NI20696194\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\NI20696194\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\NI20696194\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\NI20696194\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\NI20696194\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\NI20696194\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\NI20696194\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\NI20696194\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\NI20696194\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\NI20696194\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\NI20696194\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\NI20696194\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\NI20696194\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\NI20696194\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\NI20696194\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\NI20696194\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\NI20696194\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\NI20696194\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\NI20696194\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\NI20696194\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\NI20696194\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\NI20696194\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\NI20696194\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\NI20696194\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\NI20696194\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\NI20696194\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\NI20696194\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\NI20696194\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\NI20696194\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\NI20696194\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\NI20696194\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\NI20696194\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\NI20696194\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\NI20696194\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\NI20696194\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\NI20696194\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\NI20696194\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\NI20696194\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\NI20696194\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\NI20696194\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\NI20696194\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\NI20696194\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\NI20696194\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\NI20696194\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\NI20696194\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\NI20696194\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NI20696194\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\NI20696194\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\NI20696194\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\NI20696194\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\NI20696194\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\NI20696194\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\NI20696194\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\NI20696194\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\NI20696194\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\NI20696194\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\NI20696194\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\NI20696194\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\NI20696194\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\NI20696194\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\NI20696194\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\NI20696194\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\NI20696194\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\NI20696194\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\NI20696194\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\NI20696194\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\NI20696194\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\NI20696194\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\NI20696194\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\NI20696194\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\NI20696194\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\NI20696194\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\NI20696194\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\NI20696194\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\NI20696194\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.23.1\log4j-slf4j2-impl-2.23.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\NI20696194\AppData\Local\Temp\surefire16524910620617107079\surefirebooter-20260707001539208_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\NI20696194\AppData\Local\Temp\surefire16478574341188476173\surefirebooter-20260707004613002_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-LTS"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Search for a product and add it to the cart&quot;, &quot;Product Search and Shopping Cart Management&quot;](1)" classname="runner.TestRunner" time="25.82">
+  <testcase name="runScenario[&quot;Search for a product and add it to the cart&quot;, &quot;Product Search and Shopping Cart Management&quot;](1)" classname="runner.TestRunner" time="22.73">
     <system-out><![CDATA[
 Scenario: Search for a product and add it to the cart       # src/test/resources/features/product_search.feature:3
   Given the user is on the Demo Web Shop homepage           # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
@@ -85,22 +85,22 @@ Scenario: Search for a product and add it to the cart       # src/test/resources
     Embedding Passed_Step_View [image/png 162355 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Jul 07, 2026 12:15:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 07, 2026 12:46:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 150
-Jul 07, 2026 12:15:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 07, 2026 12:46:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 150.0.7871.46. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Checkout Process with Invalid Data Handling&quot;, &quot;Product Search and Shopping Cart Management&quot;](2)" classname="runner.TestRunner" time="25.448">
+  <testcase name="runScenario[&quot;Checkout Process with Invalid Data Handling&quot;, &quot;Product Search and Shopping Cart Management&quot;](2)" classname="runner.TestRunner" time="26.233">
     <system-out><![CDATA[
 Scenario: Checkout Process with Invalid Data Handling                                                   # src/test/resources/features/product_search.feature:10
   Given the user is on the Demo Web Shop homepage                                                       # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 137289 bytes]
+    Embedding Passed_Step_View [image/png 137837 bytes]
 
   And the user has a product inside the shopping cart                                                   # stepdefinitions.ProductSearchSteps.addDefaultProductToCart()
 
-    Embedding Passed_Step_View [image/png 277394 bytes]
+    Embedding Passed_Step_View [image/png 277002 bytes]
 
   When the user opens the shopping cart                                                                 # stepdefinitions.ProductSearchSteps.openShoppingCart()
 
@@ -116,7 +116,7 @@ Scenario: Checkout Process with Invalid Data Handling                           
 
   And attempts to continue billing with empty required fields                                           # stepdefinitions.ProductSearchSteps.stepInvalidBilling()
 
-    Embedding Passed_Step_View [image/png 86307 bytes]
+    Embedding Passed_Step_View [image/png 86310 bytes]
 
   Then a billing validation error message should appear                                                 # stepdefinitions.ProductSearchSteps.stepVerifyValidationError()
 
@@ -128,20 +128,20 @@ Scenario: Checkout Process with Invalid Data Handling                           
 
   And completes all remaining checkout steps                                                            # stepdefinitions.ProductSearchSteps.stepCompleteCheckout()
 
-    Embedding Passed_Step_View [image/png 68991 bytes]
+    Embedding Passed_Step_View [image/png 68986 bytes]
 
   Then the order confirmation message "Your order has been successfully processed!" should be displayed # stepdefinitions.ProductSearchSteps.stepVerifyOrder(java.lang.String)
 
-    Embedding Passed_Step_View [image/png 67073 bytes]
+    Embedding Passed_Step_View [image/png 67013 bytes]
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User Registration with Invalid Data Handling&quot;, &quot;Product Search and Shopping Cart Management&quot;](3)" classname="runner.TestRunner" time="24.414">
+  <testcase name="runScenario[&quot;User Registration with Invalid Data Handling&quot;, &quot;Product Search and Shopping Cart Management&quot;](3)" classname="runner.TestRunner" time="24.2">
     <system-out><![CDATA[
 Scenario: User Registration with Invalid Data Handling                                         # src/test/resources/features/product_search.feature:22
   Given the user is on the Demo Web Shop homepage                                              # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 143250 bytes]
+    Embedding Passed_Step_View [image/png 143392 bytes]
 
   When the user navigates to the Registration page                                             # stepdefinitions.ProductSearchSteps.navigateToRegistrationForm()
 
@@ -149,7 +149,7 @@ Scenario: User Registration with Invalid Data Handling                          
 
   And attempts to register with missing required data fields                                   # stepdefinitions.ProductSearchSteps.submitEmptyRegistrationForm()
 
-    Embedding Passed_Step_View [image/png 100438 bytes]
+    Embedding Passed_Step_View [image/png 100441 bytes]
 
   Then a registration form field validation error should appear                                # stepdefinitions.ProductSearchSteps.verifyRegistrationFieldError()
 
@@ -157,20 +157,20 @@ Scenario: User Registration with Invalid Data Handling                          
 
   When the user registers with valid unique customer credentials                               # stepdefinitions.ProductSearchSteps.enterValidRegistrationData()
 
-    Embedding Passed_Step_View [image/png 85351 bytes]
+    Embedding Passed_Step_View [image/png 85631 bytes]
 
   Then the registration confirmation message "Your registration completed" should be displayed # stepdefinitions.ProductSearchSteps.verifyRegistrationSuccessMessage(java.lang.String)
 
-    Embedding Passed_Step_View [image/png 85351 bytes]
+    Embedding Passed_Step_View [image/png 85631 bytes]
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Login with Valid &amp; Invalid Credentials&quot;, &quot;Product Search and Shopping Cart Management&quot;](4)" classname="runner.TestRunner" time="13.939">
+  <testcase name="runScenario[&quot;Login with Valid &amp; Invalid Credentials&quot;, &quot;Product Search and Shopping Cart Management&quot;](4)" classname="runner.TestRunner" time="14.651">
     <system-out><![CDATA[
 Scenario: Login with Valid & Invalid Credentials                       # src/test/resources/features/product_search.feature:30
   Given the user is on the Demo Web Shop homepage                      # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 146643 bytes]
+    Embedding Passed_Step_View [image/png 147018 bytes]
 
   When the user navigates to the Login page                            # stepdefinitions.ProductSearchSteps.navigateToLoginForm()
 
@@ -178,7 +178,7 @@ Scenario: Login with Valid & Invalid Credentials                       # src/tes
 
   And attempts to log in with invalid customer credentials             # stepdefinitions.ProductSearchSteps.loginWithInvalidData()
 
-    Embedding Passed_Step_View [image/png 115855 bytes]
+    Embedding Passed_Step_View [image/png 117299 bytes]
 
   Then a login validation error message should be displayed            # stepdefinitions.ProductSearchSteps.verifyLoginError()
 
@@ -186,20 +186,20 @@ Scenario: Login with Valid & Invalid Credentials                       # src/tes
 
   When the user enters the valid credentials of the registered account # stepdefinitions.ProductSearchSteps.loginWithValidData()
 
-    Embedding Passed_Step_View [image/png 137528 bytes]
+    Embedding Passed_Step_View [image/png 137565 bytes]
 
   Then the "My account" email link should be displayed at the top      # stepdefinitions.ProductSearchSteps.verifyMyAccountHeaderLink(java.lang.String)
 
-    Embedding Passed_Step_View [image/png 138470 bytes]
+    Embedding Passed_Step_View [image/png 138748 bytes]
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](5)" classname="runner.TestRunner" time="25.922">
+  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](5)" classname="runner.TestRunner" time="26.616">
     <system-out><![CDATA[
 Scenario Outline: Data Driven Login Validation                           # src/test/resources/features/product_search.feature:46
   Given the user is on the Demo Web Shop homepage                        # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 137528 bytes]
+    Embedding Passed_Step_View [image/png 137793 bytes]
 
   When the user navigates to the Login page                              # stepdefinitions.ProductSearchSteps.navigateToLoginForm()
 
@@ -219,12 +219,12 @@ Excel Updated Successfully => Row_01 : FAILED
 Excel Updated : Row_01 -> FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](6)" classname="runner.TestRunner" time="24.998">
+  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](6)" classname="runner.TestRunner" time="25.471">
     <system-out><![CDATA[
 Scenario Outline: Data Driven Login Validation                           # src/test/resources/features/product_search.feature:47
   Given the user is on the Demo Web Shop homepage                        # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 134236 bytes]
+    Embedding Passed_Step_View [image/png 134391 bytes]
 
   When the user navigates to the Login page                              # stepdefinitions.ProductSearchSteps.navigateToLoginForm()
 
@@ -244,12 +244,12 @@ Excel Updated Successfully => Row_02 : FAILED
 Excel Updated : Row_02 -> FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](7)" classname="runner.TestRunner" time="25.011">
+  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](7)" classname="runner.TestRunner" time="25.444">
     <system-out><![CDATA[
 Scenario Outline: Data Driven Login Validation                           # src/test/resources/features/product_search.feature:48
   Given the user is on the Demo Web Shop homepage                        # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 134159 bytes]
+    Embedding Passed_Step_View [image/png 134572 bytes]
 
   When the user navigates to the Login page                              # stepdefinitions.ProductSearchSteps.navigateToLoginForm()
 
@@ -269,12 +269,12 @@ Excel Updated Successfully => Row_03 : FAILED
 Excel Updated : Row_03 -> FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](8)" classname="runner.TestRunner" time="24.425">
+  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](8)" classname="runner.TestRunner" time="24.838">
     <system-out><![CDATA[
 Scenario Outline: Data Driven Login Validation                           # src/test/resources/features/product_search.feature:49
   Given the user is on the Demo Web Shop homepage                        # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 134159 bytes]
+    Embedding Passed_Step_View [image/png 134391 bytes]
 
   When the user navigates to the Login page                              # stepdefinitions.ProductSearchSteps.navigateToLoginForm()
 
@@ -288,18 +288,18 @@ Row_04 Login Status = false
 Login Result Recorded
   Then the login result should be captured                               # stepdefinitions.ProductSearchSteps.loginResultCaptured()
 
-    Embedding Passed_Step_View [image/png 117186 bytes]
+    Embedding Passed_Step_View [image/png 117163 bytes]
 
 Excel Updated Successfully => Row_04 : FAILED
 Excel Updated : Row_04 -> FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](9)" classname="runner.TestRunner" time="25.225">
+  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](9)" classname="runner.TestRunner" time="25.247">
     <system-out><![CDATA[
 Scenario Outline: Data Driven Login Validation                           # src/test/resources/features/product_search.feature:50
   Given the user is on the Demo Web Shop homepage                        # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 133995 bytes]
+    Embedding Passed_Step_View [image/png 134391 bytes]
 
   When the user navigates to the Login page                              # stepdefinitions.ProductSearchSteps.navigateToLoginForm()
 
@@ -313,13 +313,13 @@ Row_05 Login Status = false
 Login Result Recorded
   Then the login result should be captured                               # stepdefinitions.ProductSearchSteps.loginResultCaptured()
 
-    Embedding Passed_Step_View [image/png 117700 bytes]
+    Embedding Passed_Step_View [image/png 117704 bytes]
 
 Excel Updated Successfully => Row_05 : FAILED
 Excel Updated : Row_05 -> FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](10)" classname="runner.TestRunner" time="24.544">
+  <testcase name="runScenario[&quot;Data Driven Login Validation&quot;, &quot;Product Search and Shopping Cart Management&quot;](10)" classname="runner.TestRunner" time="25.046">
     <system-out><![CDATA[
 Scenario Outline: Data Driven Login Validation                           # src/test/resources/features/product_search.feature:51
   Given the user is on the Demo Web Shop homepage                        # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
@@ -344,12 +344,12 @@ Excel Updated Successfully => Row_06 : FAILED
 Excel Updated : Row_06 -> FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Adding Multiple Products to Cart &amp; Validating Cart Summary&quot;, &quot;Product Search and Shopping Cart Management&quot;](11)" classname="runner.TestRunner" time="15.604">
+  <testcase name="runScenario[&quot;Adding Multiple Products to Cart &amp; Validating Cart Summary&quot;, &quot;Product Search and Shopping Cart Management&quot;](11)" classname="runner.TestRunner" time="15.024">
     <system-out><![CDATA[
 Scenario: Adding Multiple Products to Cart & Validating Cart Summary                           # src/test/resources/features/product_search.feature:53
   Given the user is on the Demo Web Shop homepage                                              # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 134236 bytes]
+    Embedding Passed_Step_View [image/png 134391 bytes]
 
   When the user searches for "Computer" items and adds "Build your own cheap computer" to cart # stepdefinitions.ProductSearchSteps.searchAndAddMultipleProducts(java.lang.String,java.lang.String)
 
@@ -357,7 +357,7 @@ Scenario: Adding Multiple Products to Cart & Validating Cart Summary            
 
   And the user searches for "Computer" items and adds "Simple Computer" to cart                # stepdefinitions.ProductSearchSteps.searchAndAddMultipleProducts(java.lang.String,java.lang.String)
 
-    Embedding Passed_Step_View [image/png 275735 bytes]
+    Embedding Passed_Step_View [image/png 287066 bytes]
 
   And navigating to the checkout shopping cart page view                                       # stepdefinitions.ProductSearchSteps.navigateToCartSummaryView()
 
@@ -369,7 +369,7 @@ Scenario: Adding Multiple Products to Cart & Validating Cart Summary            
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Perform Check-out with Coupon Discount Verification&quot;, &quot;Product Search and Shopping Cart Management&quot;](12)" classname="runner.TestRunner" time="47.738">
+  <testcase name="runScenario[&quot;Perform Check-out with Coupon Discount Verification&quot;, &quot;Product Search and Shopping Cart Management&quot;](12)" classname="runner.TestRunner" time="47.567">
     <system-out><![CDATA[
 Scenario: Perform Check-out with Coupon Discount Verification                     # src/test/resources/features/product_search.feature:60
   Given the user is on the Demo Web Shop homepage                                 # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
@@ -382,7 +382,7 @@ Scenario: Perform Check-out with Coupon Discount Verification                   
 
   And navigates back to the cart page to apply coupon code "test_coupon"          # stepdefinitions.ProductSearchSteps.applyInstructorCouponCode(java.lang.String)
 
-    Embedding Passed_Step_View [image/png 94513 bytes]
+    Embedding Passed_Step_View [image/png 112192 bytes]
 
 Coupon validation processing container status state: false
   Then the cart summary should reflect the applied discount calculation           # stepdefinitions.ProductSearchSteps.verifyCartSummaryReflectsCouponDiscount()
@@ -391,34 +391,34 @@ Coupon validation processing container status state: false
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Logging Out and Verifying Session End&quot;, &quot;Product Search and Shopping Cart Management&quot;](13)" classname="runner.TestRunner" time="12.447">
+  <testcase name="runScenario[&quot;Logging Out and Verifying Session End&quot;, &quot;Product Search and Shopping Cart Management&quot;](13)" classname="runner.TestRunner" time="12.527">
     <system-out><![CDATA[
 Scenario: Logging Out and Verifying Session End                              # src/test/resources/features/product_search.feature:66
   Given the user is on the Demo Web Shop homepage                            # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 153244 bytes]
+    Embedding Passed_Step_View [image/png 153428 bytes]
 
   When the user ensures they are logged in with valid credentials            # stepdefinitions.ProductSearchSteps.ensureUserIsAuthenticatedForLogoutScenario()
 
-    Embedding Passed_Step_View [image/png 154197 bytes]
+    Embedding Passed_Step_View [image/png 154240 bytes]
 
 Logout link not visible on screen. Clearing session storage and cookies directly via WebDriver API.
   And clicks the logout button from the account navigation links             # stepdefinitions.ProductSearchSteps.clicksLogoutButtonFromAccountLinks()
 
-    Embedding Passed_Step_View [image/png 197147 bytes]
+    Embedding Passed_Step_View [image/png 133299 bytes]
 
   Then the user should be logged out and redirected to the home landing page # stepdefinitions.ProductSearchSteps.verifyUserIsLoggedOutSuccessfully()
 
-    Embedding Passed_Step_View [image/png 134973 bytes]
+    Embedding Passed_Step_View [image/png 135007 bytes]
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Forgot Password Password Recovery Process&quot;, &quot;Product Search and Shopping Cart Management&quot;](14)" classname="runner.TestRunner" time="13.443">
+  <testcase name="runScenario[&quot;Forgot Password Password Recovery Process&quot;, &quot;Product Search and Shopping Cart Management&quot;](14)" classname="runner.TestRunner" time="13.456">
     <system-out><![CDATA[
 Scenario: Forgot Password Password Recovery Process                                               # src/test/resources/features/product_search.feature:72
   Given the user is on the Demo Web Shop homepage                                                 # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 133995 bytes]
+    Embedding Passed_Step_View [image/png 134236 bytes]
 
   When the user navigates to the Login page                                                       # stepdefinitions.ProductSearchSteps.navigateToLoginForm()
 
@@ -430,28 +430,28 @@ Scenario: Forgot Password Password Recovery Process                             
 
   And enters the registered account email address to recover password                             # stepdefinitions.ProductSearchSteps.enterRegisteredEmailForRecovery()
 
-    Embedding Passed_Step_View [image/png 96505 bytes]
+    Embedding Passed_Step_View [image/png 96502 bytes]
 
   And clicks the recovery submission button                                                       # stepdefinitions.ProductSearchSteps.clickPasswordRecoverySubmission()
 
-    Embedding Passed_Step_View [image/png 98065 bytes]
+    Embedding Passed_Step_View [image/png 97949 bytes]
 
   Then a notification message "Email with instructions has been sent to you." should be displayed # stepdefinitions.ProductSearchSteps.verifyPasswordRecoveryNotification(java.lang.String)
 
-    Embedding Passed_Step_View [image/png 98065 bytes]
+    Embedding Passed_Step_View [image/png 97949 bytes]
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Update Shopping Cart Quantity Controls and Product Removal&quot;, &quot;Product Search and Shopping Cart Management&quot;](15)" classname="runner.TestRunner" time="29.341">
+  <testcase name="runScenario[&quot;Update Shopping Cart Quantity Controls and Product Removal&quot;, &quot;Product Search and Shopping Cart Management&quot;](15)" classname="runner.TestRunner" time="29.572">
     <system-out><![CDATA[
 Scenario: Update Shopping Cart Quantity Controls and Product Removal                                       # src/test/resources/features/product_search.feature:80
   Given the user is on the Demo Web Shop homepage                                                          # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 134095 bytes]
+    Embedding Passed_Step_View [image/png 134236 bytes]
 
   When the user searches for "14.1-inch Laptop" items inside the store catalogue                           # stepdefinitions.ProductSearchSteps.userSearchesForProductScenario9(java.lang.String)
 
-    Embedding Passed_Step_View [image/png 103950 bytes]
+    Embedding Passed_Step_View [image/png 135217 bytes]
 
   And clicks on the product link to open the product details page                                          # stepdefinitions.ProductSearchSteps.userOpensProductDetailsPageScenario9()
 
@@ -491,32 +491,32 @@ Scenario: Update Shopping Cart Quantity Controls and Product Removal            
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Wishlist Operations for Authenticated Users&quot;, &quot;Product Search and Shopping Cart Management&quot;](16)" classname="runner.TestRunner" time="8.615">
+  <testcase name="runScenario[&quot;Wishlist Operations for Authenticated Users&quot;, &quot;Product Search and Shopping Cart Management&quot;](16)" classname="runner.TestRunner" time="7.708">
     <system-out><![CDATA[
 Scenario: Wishlist Operations for Authenticated Users                       # src/test/resources/features/product_search.feature:93
   Given the user is on the Demo Web Shop homepage                           # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 137870 bytes]
+    Embedding Passed_Step_View [image/png 137736 bytes]
 
   When the user logs into their active account if not already authenticated # stepdefinitions.ProductSearchSteps.ensureAuthenticatedSessionForWishlist()
 
-    Embedding Passed_Step_View [image/png 138692 bytes]
+    Embedding Passed_Step_View [image/png 138702 bytes]
 
   And searches for "Health Book" and navigates to its product details page  # stepdefinitions.ProductSearchSteps.searchAndOpenProductDetailsForWishlist(java.lang.String)
 
-    Embedding Passed_Step_View [image/png 236722 bytes]
+    Embedding Passed_Step_View [image/png 237034 bytes]
 
   And clicks the Add to Wishlist action button                              # stepdefinitions.ProductSearchSteps.clickWishlistBtnOnDetailsPage()
 
-    Embedding Passed_Step_View [image/png 240700 bytes]
+    Embedding Passed_Step_View [image/png 240903 bytes]
 
   And navigates to the Wishlist storage page view                           # stepdefinitions.ProductSearchSteps.navigateToWishlistPortalView()
 
-    Embedding Passed_Step_View [image/png 91963 bytes]
+    Embedding Passed_Step_View [image/png 92029 bytes]
 
   Then the product should be successfully visible inside the wishlist table # stepdefinitions.ProductSearchSteps.verifyProductVisibleInsideWishlistTable()
 
-    Embedding Passed_Step_View [image/png 91963 bytes]
+    Embedding Passed_Step_View [image/png 92029 bytes]
 
   When the user checks the remove checkbox next to the product item         # stepdefinitions.ProductSearchSteps.performWishlistRemovalSelection()
 
@@ -532,12 +532,12 @@ Scenario: Wishlist Operations for Authenticated Users                       # sr
 
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Product Comparison Engine Operations&quot;, &quot;Product Search and Shopping Cart Management&quot;](17)" classname="runner.TestRunner" time="8.133">
+  <testcase name="runScenario[&quot;Product Comparison Engine Operations&quot;, &quot;Product Search and Shopping Cart Management&quot;](17)" classname="runner.TestRunner" time="7.608">
     <system-out><![CDATA[
 Scenario: Product Comparison Engine Operations                                              # src/test/resources/features/product_search.feature:104
   Given the user is on the Demo Web Shop homepage                                           # stepdefinitions.ProductSearchSteps.userIsOnHomepage()
 
-    Embedding Passed_Step_View [image/png 141153 bytes]
+    Embedding Passed_Step_View [image/png 140980 bytes]
 
   When the user searches for "Computer" items and opens "Build your own cheap computer"     # stepdefinitions.ProductSearchSteps.searchAndOpenProductForComparison(java.lang.String,java.lang.String)
 
@@ -553,11 +553,11 @@ Scenario: Product Comparison Engine Operations                                  
 
   And clicks the Add to Comparison List action button again                                 # stepdefinitions.ProductSearchSteps.clickComparisonButtonOnSecondDetailsPage()
 
-    Embedding Passed_Step_View [image/png 155278 bytes]
+    Embedding Passed_Step_View [image/png 156967 bytes]
 
   Then the product comparison table grid should display both computer products successfully # stepdefinitions.ProductSearchSteps.verifyComparisonGridProducts()
 
-    Embedding Passed_Step_View [image/png 155278 bytes]
+    Embedding Passed_Step_View [image/png 156967 bytes]
 
 ]]></system-out>
   </testcase>

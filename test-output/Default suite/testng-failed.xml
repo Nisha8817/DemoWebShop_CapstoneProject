@@ -6,8 +6,8 @@
       <class name="runner.TestRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="17 18 19 20 21 22 23 24 25 26 27 28"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6"/>
           <include name="closeGlobalBrowserSession"/>
         </methods>
       </class> <!-- runner.TestRunner -->

@@ -723,6 +723,7 @@ public class ProductSearchSteps {
             "Second product ('Simple Computer') missing from comparison matrix rows!");
     }
 
+    
     // -------- Scenario 13 Registered User Checkout Process ------------------
     
     @When("the user ensures they are signed out to verify the checkout gateway path")
@@ -1159,6 +1160,7 @@ public class ProductSearchSteps {
     			"Expected Order Details / Return Request page not displayed.");
     }
 
+    
     
     @io.cucumber.java.AfterStep
     public void captureScreenshotAfterEveryStep(io.cucumber.java.Scenario scenario) {

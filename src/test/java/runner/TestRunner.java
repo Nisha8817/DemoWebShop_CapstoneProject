@@ -23,7 +23,7 @@ import stepdefinitions.ProductSearchSteps;
     		"Update Shopping Cart Quantity Controls and Product Removal",
     		"Wishlist Operations for Authenticated Users",
     		"Product Comparison Engine Operations",
-    		/*"Registered User Checkout Process Completion via Gateway Registration",
+    		"Registered User Checkout Process Completion via Gateway Registration",
     		"Checkout with New Shipping Address Configuration",
     		"Checkout with Different Billing & Shipping Address Setup",
     		"Verify Order History and Invoice Validation after placing order",
@@ -34,7 +34,7 @@ import stepdefinitions.ProductSearchSteps;
     		"Product Sorting Validation",
     	    "Product Filter Validation",
     	    "Recently Viewed Products Validation Engine",
-    		"Product Return Request Submission for Eligible Items"*/
+    		"Product Return Request Submission for Eligible Items"
     	},
    
     plugin = {
