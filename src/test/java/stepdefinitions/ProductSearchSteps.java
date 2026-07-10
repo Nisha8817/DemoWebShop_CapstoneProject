@@ -5,6 +5,9 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.Assert;
+
+import hooks.Hook;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.By;
@@ -12,25 +15,25 @@ import pages.*;
 import java.time.Duration;
 
 public class ProductSearchSteps {
-    private static WebDriver driver;
-    private static HomePage homePage;
-    private static SearchResultsPage searchResultsPage;
-    private static ProductDetailsPage productDetailsPage;
-    private static CartPage cartPage;
-    private static RegisterPage registerPage;
-    private static LoginPage loginPage; 
-    
-    private static String registeredEmail; 
-    private String searchedProduct;
-    private static GuestCheckoutPage guestCheckoutPage;
-    private static RegisteredCheckoutPage registeredCheckoutPage;
-    private static AccountPage accountPage;
-    private static ProductSortingPage productSortingPage;
-    private static ProductFilterPage productFilterPage;
-    private String activeExcelTrackerRowId;
-    private boolean loginSuccessful = false;
-    
+	public static WebDriver driver=Hook.driver;
+	private static HomePage homePage = Hook.homePage;
+	private static SearchResultsPage searchResultsPage = Hook.searchResultsPage;
+	private static ProductDetailsPage productDetailsPage = Hook.productDetailsPage;
+	private static CartPage cartPage=Hook.cartPage;
+	private static RegisterPage registerPage=Hook.registerPage;
+	private static LoginPage loginPage=Hook.loginPage;
 
+	private static String registeredEmail;
+	private String searchedProduct;
+	public static GuestCheckoutPage guestCheckoutPage=Hook.guestCheckoutPage;
+	private static RegisteredCheckoutPage registeredCheckoutPage=Hook.registeredCheckoutPage;
+	private static AccountPage accountPage;
+	private static ProductSortingPage productSortingPage;
+	private static ProductFilterPage productFilterPage;
+	private String activeExcelTrackerRowId;
+	private boolean loginSuccessful = false;
+    
+/*
     @Before
     public void setUp() {
         if (driver == null) {
@@ -50,7 +53,7 @@ public class ProductSearchSteps {
             guestCheckoutPage = new GuestCheckoutPage(driver);
             registeredCheckoutPage = new RegisteredCheckoutPage(driver);
         }
-    }
+    } */
     
     //------- Scenario 1 -  Product Search ---------------
 
@@ -1161,7 +1164,7 @@ public class ProductSearchSteps {
     }
 
     
-    
+ /*   
     @io.cucumber.java.AfterStep
     public void captureScreenshotAfterEveryStep(io.cucumber.java.Scenario scenario) {
         if (driver != null) {
@@ -1180,7 +1183,7 @@ public class ProductSearchSteps {
                 System.out.println("Failed to capture step screenshot: " + e.getMessage());
             }
         }
-    }
+    } */
     
     // Allure attachment mapping helper method
     @io.qameta.allure.Attachment(value = "Step Screenshot View", type = "image/png")
@@ -1188,8 +1191,8 @@ public class ProductSearchSteps {
         return screenshot;
     }
 
-    // Public getter method for closing the browser at the absolute end of the test suite run
+    /*// Public getter method for closing the browser at the absolute end of the test suite run
     public static WebDriver getDriver() {
         return driver;
-    }
+    } */
 }

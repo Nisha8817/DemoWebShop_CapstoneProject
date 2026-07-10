@@ -9,12 +9,12 @@ import stepdefinitions.ProductSearchSteps;
 
 @CucumberOptions(
     features = "src/test/resources/features",
-    glue = "stepdefinitions",
+    glue = {"stepdefinitions","hooks"},
     name = {
     	    "Search for a product and add it to the cart",
     	    "Checkout Process with Invalid Data Handling",
     	    "User Registration with Invalid Data Handling",
-    	    "Login with Valid & Invalid Credentials",
+   	        "Login with Valid & Invalid Credentials",
     		"Data Driven Login Validation",
     	    "Adding Multiple Products to Cart & Validating Cart Summary",
     	    "Perform Check-out with Coupon Discount Verification",
@@ -34,7 +34,7 @@ import stepdefinitions.ProductSearchSteps;
     		"Product Sorting Validation",
     	    "Product Filter Validation",
     	    "Recently Viewed Products Validation Engine",
-    		"Product Return Request Submission for Eligible Items"
+    		"Product Return Request Submission for Eligible Items" 
     	},
    
     plugin = {
@@ -54,11 +54,11 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         return super.scenarios();
     }
 
-    @AfterSuite(alwaysRun = true)
+   /* @AfterSuite(alwaysRun = true)
     public void closeGlobalBrowserSession() {
         WebDriver driver = ProductSearchSteps.getDriver();
         if (driver != null) {
             driver.quit();
         }
-    }
+    }*/
 }
