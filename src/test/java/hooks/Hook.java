@@ -41,7 +41,6 @@ public class Hook extends BaseClass {
             searchResultsPage = new SearchResultsPage(driver);
             productDetailsPage = new ProductDetailsPage(driver);
             cartPage = new CartPage(driver);
-            new CheckoutPage(driver);
             registerPage = new RegisterPage(driver);
             loginPage = new LoginPage(driver);
             guestCheckoutPage = new GuestCheckoutPage(driver);

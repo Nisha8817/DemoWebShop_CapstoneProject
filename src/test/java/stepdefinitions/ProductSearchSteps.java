@@ -33,27 +33,6 @@ public class ProductSearchSteps {
 	private String activeExcelTrackerRowId;
 	private boolean loginSuccessful = false;
     
-/*
-    @Before
-    public void setUp() {
-        if (driver == null) {
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            driver.manage().window().maximize();
-            
-            // Core Page Object Model mappings
-            homePage = new HomePage(driver);
-            searchResultsPage = new SearchResultsPage(driver);
-            productDetailsPage = new ProductDetailsPage(driver);
-            cartPage = new CartPage(driver);
-            new CheckoutPage(driver);
-            registerPage = new RegisterPage(driver);
-            loginPage = new LoginPage(driver); 
-            guestCheckoutPage = new GuestCheckoutPage(driver);
-            registeredCheckoutPage = new RegisteredCheckoutPage(driver);
-        }
-    } */
     
     //------- Scenario 1 -  Product Search ---------------
 
@@ -1162,28 +1141,7 @@ public class ProductSearchSteps {
     			|| pageTitle.contains("Request"),
     			"Expected Order Details / Return Request page not displayed.");
     }
-
-    
- /*   
-    @io.cucumber.java.AfterStep
-    public void captureScreenshotAfterEveryStep(io.cucumber.java.Scenario scenario) {
-        if (driver != null) {
-            try {
-                // Cast driver instance to capture raw screenshot bytes
-                org.openqa.selenium.TakesScreenshot ts = (org.openqa.selenium.TakesScreenshot) driver;
-                byte[] screenshotBytes = ts.getScreenshotAs(org.openqa.selenium.OutputType.BYTES);
-                
-                // Determine a clean label based on step status
-                String statusLabel = scenario.isFailed() ? "Failed_Step_View" : "Passed_Step_View";
-                
-                // Attach the screenshot directly underneath the current step row
-                scenario.attach(screenshotBytes, "image/png", statusLabel);
-                
-            } catch (Exception e) {
-                System.out.println("Failed to capture step screenshot: " + e.getMessage());
-            }
-        }
-    } */
+ 
     
     // Allure attachment mapping helper method
     @io.qameta.allure.Attachment(value = "Step Screenshot View", type = "image/png")
@@ -1191,8 +1149,5 @@ public class ProductSearchSteps {
         return screenshot;
     }
 
-    /*// Public getter method for closing the browser at the absolute end of the test suite run
-    public static WebDriver getDriver() {
-        return driver;
-    } */
+   
 }

@@ -54,11 +54,5 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         return super.scenarios();
     }
 
-   /* @AfterSuite(alwaysRun = true)
-    public void closeGlobalBrowserSession() {
-        WebDriver driver = ProductSearchSteps.getDriver();
-        if (driver != null) {
-            driver.quit();
-        }
-    }*/
+  
 }
